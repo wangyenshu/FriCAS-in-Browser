@@ -11,10 +11,6 @@ How to build:
 - remove previous ext2.part* files
 - run bash.sh
 
-Issue:
-
-- not working on firefox
-
 Credit:
 - FriCAS: https://fricas.github.io/
 - Embeddable Common-Lisp: https://ecl.common-lisp.dev/
