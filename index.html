@@ -99,7 +99,7 @@
               "TERM=xterm", 
               "LANG=C.UTF-8",
               "GC_NPROCS=1", // CheerpX does not support the specific signaling mechanism or thread-suspension method that ECL's Garbage Collector uses
-              "GC_INITIAL_HEAP_SIZE=2048000000",// So we can allocate enough space upfront to prevent early GC
+              "GC_INITIAL_HEAP_SIZE=1024000000",// So we can allocate enough space upfront to prevent early GC
               "GC_MAXIMUM_HEAP_SIZE=2048000000",
             ],
             cwd: "/opt/fricas0",
